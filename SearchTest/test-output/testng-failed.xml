@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Task Test(failed)">
+    <classes>
+      <class name="TestCases.OpenBraceletsPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="closeDriver"/>
+          <include name="braceletsPagIsOpened"/>
+        </methods>
+      </class> <!-- TestCases.OpenBraceletsPageTest -->
+    </classes>
+  </test> <!-- Task Test(failed) -->
+</suite> <!-- Failed suite [Demo Test] -->
